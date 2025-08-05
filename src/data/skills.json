@@ -8,6 +8,14 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Php",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -16,12 +24,32 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Laravel",
+    "imageSrc": "skills/laravel.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "SQLite",
+    "imageSrc": "skills/sqlite.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   },
   {
     "title": "Figma",
