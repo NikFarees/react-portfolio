@@ -12,19 +12,9 @@ const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, so
                 className={styles.image}
             />
             <h3 className={styles.title}>{title}</h3>
-            <p className={styles.description}>{description}</p>
-            <ul className={styles.skills}>
-                {skills.map((skill, id) => {
-                    return (
-                        <li key={id} className={styles.skill}>
-                            {skill}
-                        </li>
-                    );
-                })}
-            </ul>
             <div className={styles.links}>
-                <a href={demo} className={styles.link}>Demo</a>
-                <a href={source} className={styles.link}>Source</a>
+                {demo && <a href={demo} className={styles.link}>Demo</a>}
+                <a href={`/project/${title.toLowerCase().replace(/[^a-z0-9]/g, '-')}`} className={styles.link}>View Details</a>
             </div>
         </div>
     )
