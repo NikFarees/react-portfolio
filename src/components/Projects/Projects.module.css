@@ -1,10 +1,8 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin: 76px 10% 0;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .title {
@@ -14,6 +12,38 @@
   text-transform: uppercase;
 }
 
+/* Filter Container */
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0 40px 0;
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filterBtn:hover,
+.filterBtn.active {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.filterBtn:hover {
+  transform: translateY(-2px);
+}
+
+/* Projects Grid */
 .projects {
   margin-top: 37px;
   display: flex;
@@ -23,4 +53,62 @@
   justify-content: center;
   gap: 15px;
   width: 100%;
+}
+
+/* No Projects Message */
+.noProjects {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--color-text);
+}
+
+.noProjects p {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .container {
+    margin: 60px 5% 0;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .filterContainer {
+    gap: 10px;
+    margin: 20px 0 30px 0;
+  }
+  
+  .filterBtn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 50px 3% 0;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .filterContainer {
+    gap: 8px;
+    margin: 15px 0 25px 0;
+  }
+  
+  .filterBtn {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+  
+  .projects {
+    gap: 10px;
+  }
 }

@@ -1,15 +1,13 @@
 [
   {
     "title": "Driveflow: Driving School Management System",
+    "type": "website",
     "imageSrc": "projects/driveflow-landing.jpg",
     "description": "A web-based management system for driving schools with student enrollment and instructor scheduling features. Developed as my Final Year Project.",
     "skills": ["Php", "Html", "Css", "Bootstrap", "MySQL", "JavaScript"],
     "demo": null,
     "source": "https://github.com/NikFarees/Final-Year-Project-BSE",
     "detailedInfo": {
-      "websiteOverview": "Driveflow is a comprehensive web-based management system designed specifically for driving schools to streamline their daily operations and enhance administrative efficiency.",
-      "websitePurpose": "To digitize and automate driving school operations, reducing manual paperwork and providing a centralized platform for managing students, instructors, schedules, and progress tracking.",
-      "targetAudience": "Driving school administrators, instructors, and students who need an efficient system to manage enrollment, scheduling, and academic progress in a digital environment.",
       "images": [
         "projects/driveflow1.jpg",
         "projects/driveflow2.jpg",
@@ -17,6 +15,34 @@
         "projects/driveflow4.jpg",
         "projects/driveflow5.jpg",
         "projects/driveflow6.jpg"
+      ]
+    }
+  },
+  {
+    "title": "Ninja Network",
+    "type": "website",
+    "imageSrc": "",
+    "description": "A basic crud laravel project",
+    "skills": ["Php", "Html", "Css", "Tailwind", "SQLite", "Laravel"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/ninja_network",
+    "detailedInfo": {
+      "images": [
+        "projects/ninja1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "Kuantan Travel Planner",
+    "type": "website",
+    "imageSrc": "",
+    "description": "A basic vanilla php project",
+    "skills": ["Php", "Html", "Css"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/Kuantan-Travel-Web",
+    "detailedInfo": {
+      "images": [
+        "projects/kuantan1.jpg"
       ]
     }
   }

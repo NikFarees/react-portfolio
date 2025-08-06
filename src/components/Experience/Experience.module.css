@@ -2,9 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 79px 10% 0;
 }
 
 .title {
@@ -22,6 +20,7 @@
   margin-top: 14px;
 }
 
+/* Skills Section */
 .skillsContainer {
   width: 45%;
   max-height: 400px;
@@ -53,7 +52,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 37px;
-  max-width: 100%;
 }
 
 .skill {
@@ -65,7 +63,7 @@
 
 .skillImageContainer {
   background-color: var(--color-secondary);
-  border-radius: 100%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,6 +81,7 @@
   font-weight: 500;
 }
 
+/* Experience History Section */
 .history {
   width: 45%;
   display: flex;
@@ -92,17 +91,17 @@
 
 .historyItem {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
 }
 
 .historyItem img {
-  width: 50px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
 
 .historyItemDetails {
@@ -112,21 +111,23 @@
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
+  margin: 0;
 }
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  margin: 0;
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
+  margin: 6px 0 0 17px;
   list-style-position: inside;
   font-size: 25px;
   list-style-type: disc;
-  margin-left: 17px;
 }
 
+/* Responsive Design */
 @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
@@ -142,11 +143,78 @@
   .skills {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-content: center;
   }
 
   .history {
     width: 100%;
-    gap: 9px;
+    gap: 20px;
+  }
+
+  .historyItem img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 24px;
+  }
+
+  .historyItemDetails p {
+    font-size: 18px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 60px 5% 0;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .skillImageContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skillImageContainer img {
+    width: 60px;
+  }
+
+  .skill p {
+    font-size: 20px;
+  }
+
+  .historyItem {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .historyItem img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+
+  .historyItemDetails p {
+    font-size: 16px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 18px;
+    margin-left: 12px;
   }
 }
