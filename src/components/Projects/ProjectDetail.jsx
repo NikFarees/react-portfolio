@@ -93,26 +93,41 @@ const ProjectDetail = () => {
                 {/* Image Slider - Only show if images exist */}
                 {project.detailedInfo?.images && project.detailedInfo.images.length > 0 && (
                     <div className={styles.imageSlider}>
-                        <button className={styles.sliderBtn} onClick={prevImage}>‹</button>
-                        <img
-                            src={getImageUrl(project.detailedInfo.images[currentImageIndex])}
-                            alt={`${project.title} screenshot ${currentImageIndex + 1}`}
-                            className={styles.sliderImage}
-                        />
-                        <button className={styles.sliderBtn} onClick={nextImage}>›</button>
-                        <div className={styles.imageIndicators}>
-                            {project.detailedInfo.images.map((_, index) => (
-                                <span
-                                    key={index}
-                                    className={`${styles.indicator} ${index === currentImageIndex ? styles.active : ''}`}
-                                    onClick={() => setCurrentImageIndex(index)}
-                                />
-                            ))}
+                        <div className={styles.sliderImageContainer}>
+                            {project.detailedInfo.images.length > 1 && (
+                                <button onClick={prevImage} className={styles.sliderBtn}>
+                                    ‹
+                                </button>
+                            )}
+                            <img
+                                src={getImageUrl(project.detailedInfo.images[currentImageIndex])}
+                                alt={`${project.title} screenshot ${currentImageIndex + 1}`}
+                                className={styles.sliderImage}
+                            />
+                            {project.detailedInfo.images.length > 1 && (
+                                <button onClick={nextImage} className={styles.sliderBtn}>
+                                    ›
+                                </button>
+                            )}
+                            <div className={styles.imageInfo}>
+                                {currentImageIndex + 1} / {project.detailedInfo.images.length}
+                            </div>
                         </div>
+                        {project.detailedInfo.images.length > 1 && (
+                            <div className={styles.imageIndicators}>
+                                {project.detailedInfo.images.map((_, index) => (
+                                    <span
+                                        key={index}
+                                        className={`${styles.indicator} ${index === currentImageIndex ? styles.active : ''}`}
+                                        onClick={() => setCurrentImageIndex(index)}
+                                    />
+                                ))}
+                            </div>
+                        )}
                     </div>
                 )}
 
-                {/* Project Links - Moved to bottom */}
+                {/* Project Links */}
                 <div className={styles.bottomLinksSection}>
                     <div className={styles.heroLinks}>
                         {project.demo && (

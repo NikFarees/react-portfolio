@@ -9,12 +9,36 @@
     "source": "https://github.com/NikFarees/Final-Year-Project-BSE",
     "detailedInfo": {
       "images": [
-        "projects/driveflow1.jpg",
-        "projects/driveflow2.jpg",
-        "projects/driveflow3.jpg",
-        "projects/driveflow4.jpg",
-        "projects/driveflow5.jpg",
-        "projects/driveflow6.jpg"
+        "projects/driveflow1.png",
+        "projects/driveflow2.png",
+        "projects/driveflow3.png",
+        "projects/driveflow4.png",
+        "projects/driveflow5.png",
+        "projects/driveflow6.png",
+        "projects/driveflow7.png",
+        "projects/driveflow8.png",
+        "projects/driveflow9.png",
+        "projects/driveflow10.png"
+      ]
+    }
+  },
+  {
+    "title": "Forestopia",
+    "type": "website",
+    "imageSrc": "projects/forest-landing.jpg",
+    "description": "A complicated data analyst about forestry php project",
+    "skills": ["Php", "Html", "Css", "MySQL", "JavaScript"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/Forestopia",
+    "detailedInfo": {
+      "images": [
+        "projects/forest1.png",
+        "projects/forest2.png",
+        "projects/forest3.png",
+        "projects/forest4.png",
+        "projects/forest5.png",
+        "projects/forest6.png",
+        "projects/forest7.png"
       ]
     }
   },
@@ -29,68 +53,6 @@
     "detailedInfo": {
       "images": [
         "projects/ninja1.jpg"
-      ]
-    }
-  },
-  {
-    "title": "Kuantan Travel Planner",
-    "type": "website",
-    "imageSrc": "projects/kuantan-landing.jpg",
-    "description": "A basic vanilla php project",
-    "skills": ["Php", "Html", "Css"],
-    "demo": null,
-    "source": "https://github.com/NikFarees/Kuantan-Travel-Web",
-    "detailedInfo": {
-      "images": [
-        "projects/kuantan1.jpg",
-        "projects/kuantan2.jpg",
-        "projects/kuantan3.jpg",
-        "projects/kuantan4.jpg"
-      ]
-    }
-  },
-  {
-    "title": "Sweet Craving Delight",
-    "type": "website",
-    "imageSrc": "projects/sweet-landing.jpg",
-    "description": "A basic vanilla php project",
-    "skills": ["Php", "Html", "Css", "MySQL"],
-    "demo": null,
-    "source": "https://github.com/NikFarees/SweetCravingDelight",
-    "detailedInfo": {
-      "images": [
-        "projects/sweet1.jpg",
-        "projects/sweet2.jpg",
-        "projects/sweet3.jpg",
-        "projects/sweet4.jpg"
-      ]
-    }
-  },
-  {
-    "title": "Forestopia",
-    "type": "website",
-    "imageSrc": "",
-    "description": "A complicated data analyst about forestry php project",
-    "skills": ["Php", "Html", "Css", "MySQL", "JavaScript"],
-    "demo": null,
-    "source": "https://github.com/NikFarees/Forestopia",
-    "detailedInfo": {
-      "images": [
-        "projects/forest1.jpg"
-      ]
-    }
-  },
-  {
-    "title": "MyMelaka Tour App",
-    "type": "mobileapp",
-    "imageSrc": "",
-    "description": "A travel app for Melaka, Malaysia, providing information on attractions, food, and accommodations.",
-    "skills": ["Flutter", "Dart", "SQLite"],
-    "demo": null,
-    "source": "https://github.com/NikFarees/my-melaka-tour-app",
-    "detailedInfo": {
-      "images": [
-        "projects/melaka1.jpg"
       ]
     }
   },
@@ -119,6 +81,62 @@
     "detailedInfo": {
       "images": [
         "projects/digitopia-asp1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "Sweet Craving Delight",
+    "type": "website",
+    "imageSrc": "projects/sweet-landing.jpg",
+    "description": "A basic vanilla php project",
+    "skills": ["Php", "Html", "Css", "MySQL"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/SweetCravingDelight",
+    "detailedInfo": {
+      "images": [
+        "projects/sweet1.png",
+        "projects/sweet2.png",
+        "projects/sweet3.png",
+        "projects/sweet4.png",
+        "projects/sweet5.png",
+        "projects/sweet6.png",
+        "projects/sweet7.png",
+        "projects/sweet8.png",
+        "projects/sweet9.png",
+        "projects/sweet10.png"
+      ]
+    }
+  },
+  
+  {
+    "title": "MyMelaka Tour App",
+    "type": "mobileapp",
+    "imageSrc": "",
+    "description": "A travel app for Melaka, Malaysia, providing information on attractions, food, and accommodations.",
+    "skills": ["Flutter", "Dart", "SQLite"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/my-melaka-tour-app",
+    "detailedInfo": {
+      "images": [
+        "projects/melaka1.jpg"
+      ]
+    }
+  },
+  
+  {
+    "title": "Kuantan Travel Planner",
+    "type": "website",
+    "imageSrc": "projects/kuantan-landing.jpg",
+    "description": "A basic vanilla php project",
+    "skills": ["Php", "Html", "Css"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/Kuantan-Travel-Web",
+    "detailedInfo": {
+      "images": [
+        "projects/kuantan1.jpg",
+        "projects/kuantan2.jpg",
+        "projects/kuantan3.jpg",
+        "projects/kuantan4.jpg"
       ]
     }
   }
