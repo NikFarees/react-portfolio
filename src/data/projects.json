@@ -45,28 +45,38 @@
   {
     "title": "Ninja Network",
     "type": "website",
-    "imageSrc": "",
+    "imageSrc": "projects/ninja-landing.jpg",
     "description": "A basic crud laravel project",
     "skills": ["Php", "Html", "Css", "Tailwind", "SQLite", "Laravel"],
     "demo": null,
     "source": "https://github.com/NikFarees/ninja_network",
     "detailedInfo": {
       "images": [
-        "projects/ninja1.jpg"
+        "projects/ninja1.png",
+        "projects/ninja2.png",
+        "projects/ninja3.png",
+        "projects/ninja4.png",
+        "projects/ninja5.png"
       ]
     }
   },
   {
     "title": "MRT Ticketing System",
     "type": "website",
-    "imageSrc": "",
+    "imageSrc": "projects/mrt-landing.jpg",
     "description": "A ticketing system for MRT services, allowing users to purchase tickets and admin can check the sales.",
-    "skills": ["ASP.NET core MVC", "C#", "Html", "Css", "Bootstrap", "SQL Server", "JavaScript"],
+    "skills": ["ASP.NET core MVC", "C#", "Html", "Css", "Bootstrap", "SQL Server"],
     "demo": null,
     "source": "https://github.com/NikFarees/MRT-Ticketing-System",
     "detailedInfo": {
       "images": [
-        "projects/mrt1.jpg"
+        "projects/mrt1.png",
+        "projects/mrt2.png",
+        "projects/mrt3.png",  
+        "projects/mrt4.png",
+        "projects/mrt5.png",
+        "projects/mrt6.png",
+        "projects/mrt7.png"
       ]
     }
   },
