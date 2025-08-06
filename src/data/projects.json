@@ -83,14 +83,22 @@
   {
     "title": "Digitopia Electronic Store",
     "type": "website",
-    "imageSrc": "",
+    "imageSrc": "projects/digitopia-landing.png",
     "description": "An e-commerce website for an electronic store, featuring product listings, a shopping cart, and user authentication.",
     "skills": ["ASP.NET web form", "C#", "Html", "Css", "Bootstrap", "SQL Server", "JavaScript"],
     "demo": null,
     "source": "https://github.com/NikFarees/Digitopia-Electronic-Store",
     "detailedInfo": {
       "images": [
-        "projects/digitopia-asp1.jpg"
+        "projects/digitopia1.png",
+        "projects/digitopia2.png",
+        "projects/digitopia3.png",
+        "projects/digitopia4.png",
+        "projects/digitopia5.png",
+        "projects/digitopia6.png",
+        "projects/digitopia7.png",
+        "projects/digitopia8.png",
+        "projects/digitopia9.png"
       ]
     }
   },
@@ -121,14 +129,23 @@
   {
     "title": "MyMelaka Tour App",
     "type": "mobileapp",
-    "imageSrc": "",
+    "imageSrc": "projects/melaka-landing.png",
     "description": "A travel app for Melaka, Malaysia, providing information on attractions, food, and accommodations.",
     "skills": ["Flutter", "Dart", "SQLite"],
     "demo": null,
     "source": "https://github.com/NikFarees/my-melaka-tour-app",
     "detailedInfo": {
       "images": [
-        "projects/melaka1.jpg"
+        "projects/melaka1.jpg",
+        "projects/melaka2.jpg",
+        "projects/melaka3.jpg",
+        "projects/melaka4.jpg",
+        "projects/melaka5.jpg",
+        "projects/melaka6.jpg",
+        "projects/melaka7.jpg",
+        "projects/melaka8.jpg",
+        "projects/melaka9.jpg",
+        "projects/melaka10.jpg"
       ]
     }
   },
@@ -151,5 +168,4 @@
       ]
     }
   }
-
 ]
