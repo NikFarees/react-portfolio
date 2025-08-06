@@ -45,5 +45,76 @@
         "projects/kuantan1.jpg"
       ]
     }
+  },
+  {
+    "title": "Sweet Craving Delight",
+    "type": "website",
+    "imageSrc": "",
+    "description": "A basic vanilla php project",
+    "skills": ["Php", "Html", "Css", "MySQL"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/SweetCravingDelight",
+    "detailedInfo": {
+      "images": [
+        "projects/sweet1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "Forestopia",
+    "type": "website",
+    "imageSrc": "",
+    "description": "A complicated data analyst about forestry php project",
+    "skills": ["Php", "Html", "Css", "MySQL", "JavaScript"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/Forestopia",
+    "detailedInfo": {
+      "images": [
+        "projects/forest1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "MyMelaka Tour App",
+    "type": "mobileapp",
+    "imageSrc": "",
+    "description": "A travel app for Melaka, Malaysia, providing information on attractions, food, and accommodations.",
+    "skills": ["Flutter", "Dart", "SQLite"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/my-melaka-tour-app",
+    "detailedInfo": {
+      "images": [
+        "projects/melaka1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "MRT Ticketing System",
+    "type": "website",
+    "imageSrc": "",
+    "description": "A ticketing system for MRT services, allowing users to purchase tickets and admin can check the sales.",
+    "skills": ["ASP.NET core MVC", "C#", "Html", "Css", "Bootstrap", "SQL Server", "JavaScript"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/MRT-Ticketing-System",
+    "detailedInfo": {
+      "images": [
+        "projects/mrt1.jpg"
+      ]
+    }
+  },
+  {
+    "title": "Digitopia Electronic Store",
+    "type": "website",
+    "imageSrc": "",
+    "description": "An e-commerce website for an electronic store, featuring product listings, a shopping cart, and user authentication.",
+    "skills": ["ASP.NET web form", "C#", "Html", "Css", "Bootstrap", "SQL Server", "JavaScript"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/Digitopia-Electronic-Store",
+    "detailedInfo": {
+      "images": [
+        "projects/digitopia-asp1.jpg"
+      ]
+    }
   }
+
 ]

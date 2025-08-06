@@ -90,8 +90,8 @@ const ProjectDetail = () => {
                     </div>
                 </div>
 
-                {/* Image Slider */}
-                {project.detailedInfo?.images && (
+                {/* Image Slider - Only show if images exist */}
+                {project.detailedInfo?.images && project.detailedInfo.images.length > 0 && (
                     <div className={styles.imageSlider}>
                         <button className={styles.sliderBtn} onClick={prevImage}>‹</button>
                         <img
