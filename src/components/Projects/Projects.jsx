@@ -10,9 +10,9 @@ const Projects = () => {
     const filterTypes = [
         { key: 'all', label: 'All' },
         { key: 'website', label: 'Websites' },
-        { key: 'mobileapp', label: 'Mobile Apps' },
-        { key: 'poster design', label: 'Poster Design' },
-        { key: 'logo design', label: 'Logo Design' }
+        { key: 'mobileapp', label: 'Mobile Apps' }
+        // { key: 'poster design', label: 'Poster Design' },
+        // { key: 'logo design', label: 'Logo Design' }
     ]
 
     const filteredProjects = activeFilter === 'all' 

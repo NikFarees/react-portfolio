@@ -102,6 +102,7 @@
       ]
     }
   },
+  
   {
     "title": "Sweet Craving Delight",
     "type": "website",
@@ -122,6 +123,29 @@
         "projects/sweet8.png",
         "projects/sweet9.png",
         "projects/sweet10.png"
+      ]
+    }
+  },
+
+  {
+    "title": "iGears Electronic Store",
+    "type": "website",
+    "imageSrc": "projects/igears-landing.png",
+    "description": "A basic crud java jsp project with glassfish server",
+    "skills": ["Java", "Jsp",  "Glassfish", "Html", "Css", "MySQL", "Bootstrap"],
+    "demo": null,
+    "source": "https://github.com/NikFarees/SweetCravingDelight",
+    "detailedInfo": {
+      "images": [
+        "projects/igears1.png",
+        "projects/igears2.png",
+        "projects/igears3.png",
+        "projects/igears4.png",
+        "projects/igears5.png",
+        "projects/igears6.png",
+        "projects/igears7.png",
+        "projects/igears8.png",
+        "projects/igears9.png"
       ]
     }
   },
