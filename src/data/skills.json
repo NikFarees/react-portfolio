@@ -9,11 +9,11 @@
   },
   {
     "title": "Php",
-    "imageSrc": "skills/php.jpeg"
+    "imageSrc": "skills/php.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.jpeg"
+    "imageSrc": "skills/javascript.png"
   },
   {
     "title": "React",
@@ -25,31 +25,31 @@
   },
   {
     "title": "Laravel",
-    "imageSrc": "skills/laravel.jpeg"
+    "imageSrc": "skills/laravel.png"
   },
   {
     "title": "Python",
-    "imageSrc": "skills/python.jpeg"
+    "imageSrc": "skills/python.png"
   },
   {
     "title": "Java",
-    "imageSrc": "skills/java.jpeg"
+    "imageSrc": "skills/java.png"
   },
   {
     "title": "C++",
-    "imageSrc": "skills/c++.jpeg"
+    "imageSrc": "skills/c++.png"
   },
   {
     "title": "MySQL",
-    "imageSrc": "skills/mysql.jpeg"
+    "imageSrc": "skills/mysql.png"
   },
   {
     "title": "SQLite",
-    "imageSrc": "skills/sqlite.jpeg"
+    "imageSrc": "skills/sqlite.png"
   },
   {
     "title": "Git",
-    "imageSrc": "skills/git.jpeg"
+    "imageSrc": "skills/git.png"
   },
   {
     "title": "Figma",
