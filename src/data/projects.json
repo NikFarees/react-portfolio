@@ -134,7 +134,7 @@
     "description": "A basic crud java jsp project with glassfish server",
     "skills": ["Java", "Jsp",  "Glassfish", "Html", "Css", "MySQL", "Bootstrap"],
     "demo": null,
-    "source": "https://github.com/NikFarees/SweetCravingDelight",
+    "source": "https://github.com/NikFarees/iGears",
     "detailedInfo": {
       "images": [
         "projects/igears1.png",
